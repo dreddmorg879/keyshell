@@ -4,9 +4,9 @@ pipeline {
         nodejs '18.13.0'
     }
   
-    options {
-        retry(2)
-        timestamps()
+    #options {
+        #retry(2)
+        #timestamps()
     }
   
     stages {
